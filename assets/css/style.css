@@ -198,3 +198,45 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 32px; 
+    }
+    .header div ul li {
+        margin-left: auto; 
+    }
+    .content, .benefits {
+        width: 100%; 
+        float: none;
+        margin-left: 0;
+        padding: 10px; 
+    }
+    .benefits {
+        height: auto; 
+    }
+    .search-engine-optimization, .online-reputation-management, .social-media-marketing {
+        padding: 20px; 
+        height: auto; 
+    }
+    .hero {
+        height: 400px; 
+    }
+    p, .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header div ul {
+        text-align: center;
+        padding: 0;
+    }
+    .header div ul li {
+        display: block; 
+        margin: 10px 0; 
+    }
+    .hero {
+        height: 300px; 
+    }
+}
